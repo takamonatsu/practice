@@ -7,15 +7,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hollow, World!</h1>
-      <div className='counterApp'>
-        <CounterApp />
-      </div>
-      <div className='todoApp'>
-        <TodoApp />
-      </div>
-      <div className='WeatherApp'>
-        <WeatherApp />
-      </div>
+      <CounterApp />
+      <TodoApp />
+      <WeatherApp />
     </div>
   );
 }

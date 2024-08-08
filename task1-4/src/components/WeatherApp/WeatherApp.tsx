@@ -63,7 +63,7 @@ const WeatherApp: React.FC = () => {
     }
 
     return (
-        <div>
+        <div className='WeatherApp'>
             <h2>天気情報表示</h2>
             <select value={city} onChange={fetchArea}>
                 <option hidden>選択してください</option>
