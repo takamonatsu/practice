@@ -1,6 +1,7 @@
 import './styles/App.css';
 import CounterApp from './components/CounterApp/CounterApp';
-import ToDoApp from './components/TodoApp/TodoApp';
+import TodoApp from './components/TodoApp/TodoApp';
+import WeatherApp from './components/WeatherApp/WeatherApp';
 
 function App() {
   return (
@@ -8,7 +9,12 @@ function App() {
       <h1>Hollow, World!</h1>
       <div className='counterApp'>
         <CounterApp />
-        <ToDoApp />
+      </div>
+      <div className='todoApp'>
+        <TodoApp />
+      </div>
+      <div className='WeatherApp'>
+        <WeatherApp />
       </div>
     </div>
   );
