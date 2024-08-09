@@ -9,7 +9,7 @@ const CounterApp: React.FC  = () => {
         setCount(count - 1);
     }
   return (
-    <div className='counterApp'>
+    <div className='counter-app'>
       <p>Counter: {count}</p>
       <button onClick={increment} name='increment'>+</button>
       <button onClick={decrement} name='decrement'>-</button>
