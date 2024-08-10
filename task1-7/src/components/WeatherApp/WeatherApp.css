@@ -1,0 +1,41 @@
+.weather-app {
+    padding: 10px 0 40px;
+    background-color: #9ec5ff52;
+}
+.weather-ttl {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.weather-list {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style: none;
+}
+.weather-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.date-icon {
+    margin-right: 10px;
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.weather-list-item:nth-of-type(1) .date-icon {
+    background-color: #f75237;
+}
+.weather-list-item:nth-of-type(2) .date-icon {
+    background-color: #f7ba37;
+}
+.weather-list-item:nth-of-type(3) .date-icon {
+    background-color: #62a1ff;
+}
