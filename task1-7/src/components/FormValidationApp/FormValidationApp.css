@@ -1,0 +1,28 @@
+.form-validation-app {
+    padding: 10px 0 40px;
+}
+.user-list {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+.user-list-item {
+    display: grid;
+    justify-items: left;
+    grid-template-columns: 200px 1fr;
+}
+.user-list-item + .user-list-item {
+    margin-top: 10px;
+}
+.user-input {
+    width: 100%;
+}
+.user-input.error {
+    background-color: #f7523759;
+}
+.error-txt {
+    margin-top: 5px;
+    color: #f75237;
+    grid-column: 2 / 3;
+}
