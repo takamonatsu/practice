@@ -3,6 +3,7 @@ import CounterApp from './components/CounterApp/CounterApp';
 import TodoApp from './components/TodoApp/TodoApp';
 import WeatherApp from './components/WeatherApp/WeatherApp';
 import FormValidationApp from './components/FormValidationApp/FormValidationApp'
+import ModalApp from './components/ModalApp/ModalApp';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <TodoApp />
       <WeatherApp />
       <FormValidationApp />
+      <ModalApp />
     </div>
   );
 }

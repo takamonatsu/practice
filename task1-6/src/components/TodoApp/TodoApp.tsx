@@ -36,7 +36,7 @@ const TodoApp: React.FC = () => {
     };
 
     return (
-        <div className='todoApp'>
+        <div className='todo-app'>
             <h2>ToDoリスト</h2>
             <input type="text"
                 value={newTodo}
