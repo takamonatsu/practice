@@ -1,14 +1,21 @@
-.login-component {
+.user-form-container {
     height: 100vh;
     padding: 100px 0;
     background-color: #f0f0f0;
 }
-.login-form-area {
+.form-ttl {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+.form-area {
     width: calc(100% - 60px);
     max-width: 500px;
     margin: 0 auto;
 }
-.login-form {
+.form {
     padding: 50px 10px;
     display: flex;
     flex-direction: column;
@@ -17,12 +24,12 @@
     border-radius: 10px;
     box-shadow: 3px 3px 7px #ddd;
 }
-.login-label {
+.label {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.login-input {
+.input {
     width: 50%;
     padding: 5px;
     border-bottom: 1px solid #ddd;
@@ -30,16 +37,17 @@
 .form-bottom {
     text-align: center;
 }
-.login-btn {
+.btn {
     width: 30%;
     height: 40px;
-    margin: 10px auto;
+    margin: 20px auto 10px;
     display: block;
     font-weight: bold;
     color: #fff;
     background-color: #4e4e4e;
     border-radius: 15px;
 }
-.login-link {
+.link {
     font-size: 15px;
+    text-decoration: underline;
 }
