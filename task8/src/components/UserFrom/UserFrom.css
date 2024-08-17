@@ -1,5 +1,5 @@
 .user-form-container {
-    height: 100vh;
+    min-height: 100vh;
     padding: 100px 0;
     background-color: #f0f0f0;
 }
