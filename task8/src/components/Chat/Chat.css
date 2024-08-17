@@ -6,21 +6,19 @@
     width: calc(100% - 60px);
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 80px 0 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 /* CharList */
-.chat-list,
-.chat-area {
-    background-color: #fff;
-}
 .chat-list {
     display: grid;
+    background-color: #f9f9f9;
     align-content: baseline;
 }
 .chat-list-item  {
     padding: 10px 5px;
+    background-color: #fff;
     cursor: pointer;
 }
 .chat-list-item:hover {
@@ -48,7 +46,7 @@
     position: relative;
 }
 .chat-message {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 130px);
     padding: 10px 10px 90px;
     background-color: #98c1c1d9;
     overflow-y: scroll;
