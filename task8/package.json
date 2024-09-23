@@ -2,6 +2,7 @@
   "name": "task8",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,7 +11,11 @@
     "@types/node": "^16.18.105",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+<<<<<<< HEAD
     "mongodb": "^6.8.0",
+=======
+    "mongodb": "^6.9.0",
+>>>>>>> 81b9945ed807de9823346b8930e8e0e17ab4ea7f
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
@@ -22,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon server.js"
   },
   "eslintConfig": {
     "extends": [
