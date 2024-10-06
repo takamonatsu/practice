@@ -1,10 +1,12 @@
 import React from 'react';
+import './Header.css';
+import ModeSwitchBtn from './ModeSwitch';
 
 const Header = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+      <ModeSwitchBtn />
+    </header>
   )
 }
 
